@@ -1,0 +1,23 @@
+.topbar{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd
+}
+
+.topbarWrapper{
+    height: 100%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topLeft > .logo{
+   padding-bottom: 20px;
+}
+
+.topRight{
+
+}
