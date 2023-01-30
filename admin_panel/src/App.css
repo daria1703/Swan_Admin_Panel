@@ -2,3 +2,12 @@
   margin: 0;
   padding: 0;
 }
+
+.container2{
+  display: flex;
+}
+
+.other{
+  flex:4;
+  border: 1px solid green;
+}

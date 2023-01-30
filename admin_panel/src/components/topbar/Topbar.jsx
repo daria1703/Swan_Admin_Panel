@@ -1,6 +1,8 @@
 import React from 'react'
 import "./topbar.css"
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import SettingsIcon from '@mui/icons-material/Settings';
+import PersonIcon from '@mui/icons-material/Person';
 import Badge from '@mui/material/Badge';
 
 export default function Topbar() {
@@ -11,9 +13,13 @@ export default function Topbar() {
             <h1 className='logo'>The Swan House</h1>
         </div>
         <div className="topRight">
-        <Badge badgeContent={4} color="primary">
-            <NotificationsIcon color="action" />
-        </Badge>
+            <div className="topbarIcons">
+                <SettingsIcon style={{marginRight:5}}/>
+                <PersonIcon style={{marginRight:5}}/>
+                <Badge badgeContent={4} color="primary">
+                    <NotificationsIcon  />
+                </Badge>
+            </div>
         </div>
         </div>
     </div>
